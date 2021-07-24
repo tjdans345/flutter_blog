@@ -1,6 +1,6 @@
 # flutter_blog
 
-+Spring Boot 연동 
++Spring Boot 연동 , Getx 상태관리
 
 ## Getting Started
 
