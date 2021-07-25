@@ -9,12 +9,8 @@ class UserProvider extends GetConnect {
   // Promise (데이터를 약속 받는 것)
   Future<Response> login(Map data) => post("$url/login", data);
 
-
   // Future<Response> login(Map data) {
   //   return post("$host", data);
   // }
-
-
-
 
 }

@@ -14,6 +14,7 @@ class UserRepository {
     Response response = await _userProvider.login(loginReqDto.toJson());
     print("==========");
     print(response.body);
+    print(response.statusCode);
     print(response.headers);
     print("==========");
 
