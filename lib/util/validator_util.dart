@@ -40,3 +40,24 @@ Function validateEmail() {
     }
   };
 }
+
+Function validateTitle() {
+  return (String? value) {
+    if(value!.isEmpty) {
+      return '공백이 들어갈 수 없습니다.';
+    } else if(value.length>30) {
+      return '제목의 길이를 초과하였습니다';
+    }
+  };
+}
+
+
+Function validateContent() {
+  return (String? value) {
+    if(value!.isEmpty) {
+      return '공백이 들어갈 수 없습니다.';
+    } else if(value.length>500) {
+      return '글 내용 길이를 초과하였습니다';
+    }
+  };
+}
